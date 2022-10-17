@@ -1,6 +1,6 @@
 import { BiSearch, BiCaretDown } from 'react-icons/bi'
 
-export default function Search() {
+const Search = () => {
     return (
         <div className="py-5">
             <div className="mt-1 relative rounded-md shadow-sm">
@@ -22,3 +22,4 @@ export default function Search() {
         </div>
     )
 }
+export default Search;
